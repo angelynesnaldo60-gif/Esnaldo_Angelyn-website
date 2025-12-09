@@ -1,0 +1,116 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f3f3f3;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 18px 30px;
+background: white;
+border-bottom: 2px solid #f2c3ff;
+}
+
+.logo {
+color: #d45ce6;
+font-size: 20px;
+font-weight: bold;
+}
+
+.nav-links a {
+margin-left: 25px;
+text-decoration: none;
+color: black;
+font-size: 14px;
+font-weight: bold;
+}
+
+.hamburger {
+display: none;
+font-size: 26px;
+cursor: pointer;
+color: #d45ce6;
+}
+
+.mobile-menu {
+display: none;
+flex-direction: column;
+background: white;
+padding: 15px 25px;
+border-bottom: 2px solid #eaa8ff;
+}
+
+.mobile-menu a {
+padding: 10px 0;
+text-decoration: none;
+color: black;
+}
+
+.mobile-menu.open {
+display: flex;
+}
+
+.hero {
+background: #f8e1f7;
+padding: 80px 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.hero h2 {
+font-size: 32px;
+color: black;
+}
+
+.hero span {
+color: #d45ce6;
+font-weight: bold;
+}
+
+.circle {
+width: 120px;
+height: 120px;
+border-radius: 50%;
+border: 2px solid #ccc;
+display: flex;
+justify-content: center;
+align-items: center;
+background: white;
+}
+
+footer {
+background: #d45ce6;
+padding: 15px;
+color: white;
+font-size: 14px;
+text-align: center;
+margin-top: 40px;
+}
+
+footer .icons span {
+margin: 0 10px;
+font-size: 18px;
+}
+
+@media (max-width: 700px) {
+
+.nav-links {
+display: none;
+}
+
+.hamburger {
+display: block;
+}
+
+.hero {
+flex-direction: column;
+text-align: center;
+}
+
+.circle {
+margin-top: 20px;
+}
+}
