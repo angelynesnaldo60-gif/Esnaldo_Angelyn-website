@@ -70,15 +70,11 @@ color: #d45ce6;
 font-weight: bold;
 }
 
-.circle {
-width: 120px;
-height: 120px;
+img{
+width: 300px;
+height:300px;
 border-radius: 50%;
-border: 2px solid #ccc;
-display: flex;
-justify-content: center;
-align-items: center;
-background: white;
+border: 2px solid purple;
 }
 
 footer {
@@ -110,7 +106,6 @@ flex-direction: column;
 text-align: center;
 }
 
-.circle {
-margin-top: 20px;
-}
+
+
 }
